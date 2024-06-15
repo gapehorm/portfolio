@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Gape Horn! A web3 developer, Let's Connect!
+            Hi! I&apos;m Gape Horn! A web3 developer, Let&apos;s Connect!
           </p>
 
           <a href="#about">
