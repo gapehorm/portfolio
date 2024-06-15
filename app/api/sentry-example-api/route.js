@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server";
 
+export const dynamic = "force-dynamic";
+
 // A faulty API route to test Sentry's error monitoring
-export function get(req) {
+export function GET() {
   throw new Error("Sentry Example API Route Error");
-  // The code below won't be reached due to the error thrown above
   return NextResponse.json({ data: "Testing Sentry Error..." });
 }
